@@ -45,3 +45,8 @@
     url("Lato-Italic.otf") format("opentype"),
     url("Lato-Italic.woff") format("woff");
 }
+
+body {
+    width: 1160px;
+    margin: auto;
+}
