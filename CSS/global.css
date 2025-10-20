@@ -13,3 +13,40 @@
     url("Raleway-Regular.otf") format("opentype"),
     url("Raleway-Regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src:
+    local("Raleway-Bold"),
+    url("Raleway-Bold.otf") format("opentype"),
+    url("Raleway-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Raleway-Italic";
+  src:
+    local("Raleway-Italic"),
+    url("Raleway-Italic.otf") format("opentype"),
+    url("Raleway-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src:
+    local("Lato-Bold"),
+    url("Lato-Bold.otf") format("opentype"),
+    url("Lato-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato-Italic";
+  src:
+    local("Lato-Italic"),
+    url("Lato-Italic.otf") format("opentype"),
+    url("Lato-Italic.woff") format("woff");
+}
+
+body {
+    width: 1160px;
+    margin: auto;
+}
