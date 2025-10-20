@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 img {
     width: 150px;
     height: 120px;
 }
-=======
 /* Mise en page du header */
 header {
     display: flex;
@@ -78,4 +76,3 @@ a {
   text-decoration: none;
   color: inherit; 
 }
->>>>>>> faeb3814fb8e912f52d32fb0db5a429a52823747

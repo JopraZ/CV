@@ -12,8 +12,6 @@
     local("Raleway"),
     url("Raleway-Regular.otf") format("opentype"),
     url("Raleway-Regular.woff") format("woff");
-<<<<<<< HEAD
-=======
 }
 
 @font-face {
@@ -51,5 +49,4 @@
 body {
     width: 1160px;
     margin: auto;
->>>>>>> faeb3814fb8e912f52d32fb0db5a429a52823747
 }
