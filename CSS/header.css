@@ -1,7 +1,7 @@
-/* Mise en page du header */
+
 header {
     display: flex;
-    flex-direction: row-reverse;  /* inverse l’ordre horizontal */
+    flex-direction: row-reverse;  
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
