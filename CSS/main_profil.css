@@ -1,0 +1,24 @@
+.central hr{
+    color: #f5f5f5;
+}
+
+.profil p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.dwwm_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.dwwm_flex .gauche {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;  
+}
+
+.dwwm_flex p {
+    margin: 0;
+}
