@@ -1,0 +1,41 @@
+main {
+  display: flex;        
+  width: 1160px;            
+  gap: 20px;              
+  padding: 0;
+  box-sizing: border-box;
+  flex-direction: row-reverse; 
+}
+
+main > .compétences {
+  flex: 0 0 30%;           
+}
+
+main > .central {
+  flex: 1;            
+}
+
+h2 {
+    font-family: Lato-Bold, sans-serif;
+    color: #17abb3;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.stars {
+     color: #17abb3;
+}
+
+.bold {
+    font-family: Raleway-Bold, sans-serif;
+    font-weight: bold;
+}
+
+.blue_date {
+    color: #17abb3;
+}
