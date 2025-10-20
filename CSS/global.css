@@ -46,7 +46,9 @@
     url("Lato-Italic.woff") format("woff");
 }
 
+
 body {
     width: 1160px;
     margin: auto;
+    padding: 0;
 }

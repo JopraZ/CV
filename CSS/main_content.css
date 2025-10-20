@@ -1,14 +1,14 @@
 main {
   display: flex;        
-  width: 100%;            
+  width: 1160px;            
   gap: 20px;              
-  padding: 20px;
+  padding: 0;
   box-sizing: border-box;
   flex-direction: row-reverse; 
 }
 
 main > .compétences {
-  flex: 0 0 25%;           
+  flex: 0 0 30%;           
 }
 
 main > .central {
@@ -26,33 +26,6 @@ p {
     line-height: 1.6;
 }
 
-
-.qualités ul,
-.loisirs ul {
-    list-style: none;       
-    padding-left: 1.5em;    
-    margin: 0;
-}
-
-
-.qualités li,
-.loisirs li {
-    font-family: Raleway, sans-serif;
-    position: relative;     
-    color: black;          
-    margin-bottom: 0.5em;   
-}
-
-
-.qualités li::before,
-.loisirs li::before {
-    content: "\25AA";     
-    color: #17abb3;           
-    font-size: 3em;      
-    position: absolute;
-    left: -0.5em;           
-    top: -0.4em;                 
-}
 
 .stars {
      color: #17abb3;
