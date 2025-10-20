@@ -1,0 +1,68 @@
+main {
+  display: flex;        
+  width: 100%;            
+  gap: 20px;              
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: row-reverse; 
+}
+
+main > .compétences {
+  flex: 0 0 25%;           
+}
+
+main > .central {
+  flex: 1;            
+}
+
+h2 {
+    font-family: Lato-Bold, sans-serif;
+    color: #17abb3;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.qualités ul,
+.loisirs ul {
+    list-style: none;       
+    padding-left: 1.5em;    
+    margin: 0;
+}
+
+
+.qualités li,
+.loisirs li {
+    font-family: Raleway, sans-serif;
+    position: relative;     
+    color: black;          
+    margin-bottom: 0.5em;   
+}
+
+
+.qualités li::before,
+.loisirs li::before {
+    content: "\25AA";     
+    color: #17abb3;           
+    font-size: 3em;      
+    position: absolute;
+    left: -0.5em;           
+    top: -0.4em;                 
+}
+
+.stars {
+     color: #17abb3;
+}
+
+.bold {
+    font-family: Raleway-Bold, sans-serif;
+    font-weight: bold;
+}
+
+.blue_date {
+    color: #17abb3;
+}
