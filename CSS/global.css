@@ -14,7 +14,7 @@
     url("Raleway-Regular.woff") format("woff");
 }
 
-@font-facgit  {
+@font-face {
   font-family: "Raleway-Bold";
   src:
     local("Raleway-Bold"),
