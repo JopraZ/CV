@@ -28,8 +28,9 @@ header {
 }
 
 
-.photo {         
-  transition: transform 0.4s ease; 
+.photo {   
+       
+    transition: transform 0.4s ease; 
 }
 
 
