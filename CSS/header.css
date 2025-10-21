@@ -25,11 +25,11 @@ header {
     margin-left: 100px;
     overflow: hidden;       
     display: inline-block; 
+    cursor: zoom-in;  
 }
 
 
-.photo {   
-       
+.photo {    
     transition: transform 0.4s ease; 
 }
 
