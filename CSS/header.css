@@ -1,8 +1,4 @@
-img {
-    width: 150px;
-    height: 120px;
-}
-/* Mise en page du header */
+
 header {
     display: flex;
     flex-direction: row-reverse;  
@@ -28,7 +24,7 @@ header {
 
 
 .photo {   
-
+    c      
     transition: transform 0.4s ease; 
 }
 
