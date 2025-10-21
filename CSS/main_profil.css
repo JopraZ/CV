@@ -7,18 +7,31 @@
     text-indent: 2em;
 }
 
-.dwwm_flex {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+
+.ligne {
+  display: flex;
+  justify-content: space-between; 
+  align-items: baseline;         
 }
 
-.dwwm_flex .gauche {
-    display: flex;
-    justify-content: space-between; 
-    align-items: baseline;  
+.ligne p,
+.lieux {
+  margin: 0; 
 }
 
-.dwwm_flex p {
-    margin: 0;
+.lieux {
+  line-height: 1; 
+}
+
+.text_date {
+    margin-bottom: 15px; 
+    border-left: 0 solid transparent; 
+    background-color: white;          
+    padding: 10px 15px;
+    transition: all 0.3s ease;       
+}
+
+.text_date:hover {
+  border-left: 6px solid #17abb3;   
+  background-color: #e3e3e3;        
 }
