@@ -10,7 +10,7 @@
 
 .border_stars {
     display: flex;
-    justify-content: space-between; /* texte à gauche, étoiles à droite */
+    justify-content: space-between; 
     align-items: center;  
 }
 
