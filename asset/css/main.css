@@ -7,11 +7,11 @@ main {
   flex-direction: row-reverse; 
 }
 
-main > .compétences {
-  flex: 0 0 30%;           
+main > .competences {
+  flex: 0 0 25%;           
 }
 
-main > .central {
+main div:first-child {
   flex: 1;            
 }
 

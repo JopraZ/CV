@@ -1,11 +1,20 @@
-.compétences {
+.competences {
     background-color: #e3e3e3;
     padding: 50px;
 }
 
-.compétences hr {
-
+.competences hr {
     color: #f5f5f5;
+}
+
+.border_stars p {
+    font-size: large;
+    font-family: Raleway-Bold, sans-serif;
+    font-weight: bold;
+}
+
+.border_stars i {
+    color: #17abb3;          
 }
 
 .border_stars {
@@ -14,36 +23,25 @@
     align-items: center;  
 }
 
-.francais_flex { 
+.langue { 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.anglais_flex { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.langue p:nth-child(1) { 
+    font-family: Raleway-Bold, sans-serif;
+    font-weight: bold;
 }
 
-.anglais_flex p { 
-    font-size: large;
-}
-
-.francais_flex p { 
-    font-size: large;
-}
-
-.qualités ul,
-.loisirs ul {
+#liste ul {
     list-style: none;       
     padding-left: 1.5em;    
     margin: 0;
 }
 
 
-.qualités li,
-.loisirs li {
+#liste li {
     font-family: Raleway, sans-serif;
     position: relative;     
     color: black;          
@@ -52,8 +50,7 @@
 }
 
 
-.qualités li::before,
-.loisirs li::before {
+#liste li::before{
     content: "\25AA";     
     color: #17abb3;           
     font-size: 3em;      

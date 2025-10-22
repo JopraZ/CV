@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="./images/cv.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/main_profil.css">
-    <link rel="stylesheet" href="CSS/aside_content.css">
-    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_profil.css">
+    <link rel="stylesheet" href="css/aside_content.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>CV</title>
 </head>
 <body>
     <header>
-        <section class="personnal_info">
+        <section id="personnal_info">
             <h1>Louis Demol</h1>
             <div>
             <p>Développeur web et web mobile</p>
@@ -29,22 +29,22 @@
                 </nav>
             </div>
         </section>
-        <div class="photo">
+        <div id="photo">
             <a href="./images/Photo_de_profil.jpg" target="_blank">
                 <img src="./images/Photo_de_profil.jpg" alt="Photo_de_profil">
             </a>
         </div>
     </header>
     <main>  
-        <div class="central">
-            <section class="profil">
+        <div>
+            <section>
                 <h2>Profil</h2>
                 <hr>
                 <p>Je m'appelle Louis j'ai 27 ans, je suis arrivé sur Montpellier il y a 3 ans. Ayant travaillé dans la restauration pendant 12 années j'ai voulu changé de voie afin de devenir developpeur.
                     Fort de mon expérience dans la restauration j'ai acquis le travail en équipe, une certaine rigueur et le sens des responsabilités.
                     Je suis quelqu'un de curieux, j'aime apprendre et découvrir de nouvelles choses.</p>
             </section>
-            <section class="formation">
+            <section>
                 <h2>Formation</h2>
                 <hr>
                 <div class="text_date">
@@ -62,7 +62,7 @@
                     <p class="lieux">CFA Charles Peguy, Orléans</p>
                 </div>
             </section>
-            <section class="stages">
+            <section>
                 <h2>Stages</h2>
                 <hr>
                 <div class="text_date">
@@ -80,7 +80,7 @@
                     <p class="lieux">Restaurant La Table d'Uzès</p>
                 </div>
             </section>
-            <section class="exp">
+            <section>
                 <h2>Experience Professionnel</h2>
                 <hr>
                 <div class="text_date">
@@ -99,13 +99,13 @@
                 </div>
             </section>
         </div>
-        <div  class="compétences">
+        <div class="competences">
             <section>
                 <h2>Compétences</h2>
                 <hr>
                 <div class="border_stars">
-                    <p class="bold">HTML</p>
-                    <div class="stars">
+                    <p>HTML</p>
+                    <div>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -114,8 +114,8 @@
                     </div>
                 </div>
                 <div class="border_stars">
-                    <p class="bold">CSS</p>
-                    <div class="stars">
+                    <p>CSS</p>
+                    <div>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -124,8 +124,8 @@
                     </div>
                 </div>
                 <div class="border_stars">
-                    <p class="bold">JavaScript</p>
-                    <div class="stars">
+                    <p>JavaScript</p>
+                    <div>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star"></i>
@@ -134,8 +134,8 @@
                     </div>
                 </div>
                 <div class="border_stars">
-                    <p class="bold">PHP</p>
-                    <div class="stars">
+                    <p>PHP</p>
+                    <div>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-regular fa-star"></i>
                         <i class="fa-regular fa-star"></i>
@@ -144,19 +144,20 @@
                     </div>
                 </div>
             </section>
-            <section class="langues">
+            <section>
                 <h2>Langues</h2>
                 <hr>
-                <div class="francais_flex">
-                    <p class="bold">Français</p>
+                <div class="langue">
+                    <p>Français</p>
                     <p>Langue maternelle</p>
                 </div>
-                <div class="anglais_flex">
-                    <p class="bold">Anglais</p>
+                <div class="langue">
+                    <p>Anglais</p>
                     <p>Professionnel</p>
                 </div>
             </section>
-            <section class="qualités">
+            <div id="liste">
+            <section">
                 <h2>Qualités</h2>
                 <hr>
                 <ul>
@@ -166,7 +167,7 @@
                     <li>Sens des responsabilités</li>
                 </ul>
             </section>
-            <section class="loisirs">
+            <section>
                 <h2>Centres d'interêts</h2>
                 <hr>
                 <ul>
@@ -175,6 +176,7 @@
                     <li>cuisine</li>
                 </ul>
             </section>
+            </div>
         </div>
     </main>
     <footer>

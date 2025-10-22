@@ -1,8 +1,4 @@
-img {
-    width: 150px;
-    height: 120px;
-}
-/* Mise en page du header */
+
 
 header {
     display: flex;
@@ -16,7 +12,7 @@ header {
 
 
 
-.photo img {
+#photo img {
     width: 170px;             
     height: 170px;
     border-radius: 50%;       
@@ -29,17 +25,17 @@ header {
 }
 
 
-.photo {    
+#photo {    
     transition: transform 0.4s ease; 
 }
 
 
-.photo:hover {
+#photo:hover {
   transform: scale(1.5);   
 }
 
 
-.personnal_info {
+#personnal_info {
     color: white;
     text-align: left;   
     margin-right: 150px;   
@@ -47,7 +43,7 @@ header {
     font-size: large;
 }
 
-.personnal_info h1 {
+#personnal_info h1 {
     font-family: Lato-Bold, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -55,13 +51,13 @@ header {
     margin-bottom: 0;
 }
 
-.personnal_info p {
+#personnal_info p {
     font-family: Raleway-Bold, sans-serif;
     font-weight: bold;
     font-size: x-large;
 }
 
-.personnal_info ul {
+#personnal_info ul {
     font-family: Raleway, sans-serif;
     color: white;
     list-style-type: none;  
